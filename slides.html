@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Pure CSS slides (Look ma, no JavaScript!)</title>
+		<link rel="stylesheet" href="common.css" type="text/css" media="all">
+		<link rel="stylesheet" href="screen.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="print.css" type="text/css" media="print">
+	</head>
+	<body>
+		<h1>Pure CSS slides</h1>
+
+		<section id="slide1">
+			<h2>Pure CSS slides</h2>
+			<a class="next" href="#slide2"></a>
+			<span id="hint">Click to continue ↑</span>
+			
+			<ul>
+				<li>Valid semantic HTML5</li>
+				<li>No JavaScript</li>
+				<li>CSS3</li>
+				<li>Responsive layout</li>
+			</ul>
+		</section>
+	
+		<section id="slide2">
+			<h2>Features</h2>
+			<a class="prev" href="#slide1"></a>
+			<a class="next" href="#slide3"></a>
+
+			<ul>
+				<li>Remaining time</li>
+				<li>Printer friendly</li>
+				<li>Slide counter</li>
+			</ul>
+		</section>
+
+		<section id="slide3">
+			<h2>Achievements unlocked I.</h2>
+			<a class="prev" href="#slide2"></a>
+			<a class="next" href="#slide4"></a>
+
+			<ul class="achievements">
+				<li>Media queries, generated content, counters</li>
+				<li>Animations, transitions, transforms</li>
+				<li>Gradients, rounded corners</li>
+				<li>@font-face + data URI</li>
+			</ul>
+		</section>
+
+		<section id="slide4">
+			<h2>Achievements unlocked II.</h2>
+			<a class="prev" href="#slide3"></a>
+			<a class="next" href="#slide5"></a>
+
+			<ul class="achievements">
+				<li>Very Obscure Selectors™
+					<ul>
+						<li><code>section[id^=slide]:target ~ #start</code></li>
+					</ul>
+				</li>
+				<li>No single image/SVG used
+					<ul>
+						<li>Unicode characters, gradient patterns</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+
+		<section id="slide5">
+			<h2>Questions / Comments</h2>
+			<a class="prev" href="#slide4"></a>
+			
+			<p>Created by <a target="_blank" href="http://ondras.zarovi.cz/">Ondřej Žára</a>. <a id="reset" href="#">Reset?</a></p>
+		</section>
+		
+		<section id="start">
+			<a href="#slide1">Click here to start the presentation…</a>
+		</section>
+		
+		<aside id="time"></aside>
+	
+
+</body></html>
